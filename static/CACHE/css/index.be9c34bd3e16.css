@@ -1,0 +1,16 @@
+/* line 1, static/dist/custom/scss/components/navbar.scss */
+.NavBar {
+  background-color: transparent;
+  position: fixed; }
+  /* line 5, static/dist/custom/scss/components/navbar.scss */
+  .NavBar img {
+    width: 100px; }
+  /* line 9, static/dist/custom/scss/components/navbar.scss */
+  .NavBar .Company {
+    font-size: 30px;
+    padding-top: 20px; }
+
+/* line 3, static/dist/custom/scss/components/index.scss */
+#main {
+  background-color: black;
+  color: white; }

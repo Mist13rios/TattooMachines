@@ -1,0 +1,1 @@
+{"status":"done","publicPath":"/static/dist/","chunks":{"vendor":[{"name":"vendor.bundle.js","publicPath":"/static/dist/vendor.bundle.js","path":"/var/www/src/static/dist/vendor.bundle.js"}],"app":[{"name":"app.bundle.js","publicPath":"/static/dist/app.bundle.js","path":"/var/www/src/static/dist/app.bundle.js"}]}}

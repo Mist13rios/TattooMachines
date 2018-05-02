@@ -1,0 +1,26 @@
+{% load i18n %}
+{% load static %}
+{% load render_bundle from webpack_loader %}
+{% load compress %}
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Tattoo Machines</title>
+
+    {% compress css %}
+        <link rel="stylesheet" type="text/x-scss" href="{% static 'dist/custom/scss/index.scss' %}" />
+        <link rel="stylesheet" href="{% static 'dist/vendor/bootstrap.min.css' %}"/>
+    {% endcompress %}
+
+    <script type="text/javascript" src="{% static 'dist/vendor/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'dist/vendor/bootstrap.min.js' %}"></script>
+    {% render_bundle 'vendor' 'js' %}
+</head>
+<body>
+    <div id="main">
+        {% render_bundle 'spa' config='SPA' %}
+    </div>
+</body>

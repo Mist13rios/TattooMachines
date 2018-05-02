@@ -1,0 +1,13 @@
+/* line 1, static/dist/custom/scss/components/navbar.scss */
+.NavBar {
+  background-color: transparent;
+  position: fixed; }
+  /* line 5, static/dist/custom/scss/components/navbar.scss */
+  .NavBar image {
+    height: 100px;
+    width: 100px; }
+
+/* line 3, static/dist/custom/scss/components/index.scss */
+#main {
+  background-color: black;
+  color: white; }

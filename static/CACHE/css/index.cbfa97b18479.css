@@ -1,0 +1,26 @@
+/* line 1, static/dist/custom/scss/components/navbar.scss */
+.NavBar {
+  background-color: transparent;
+  position: fixed; }
+  /* line 5, static/dist/custom/scss/components/navbar.scss */
+  .NavBar img {
+    padding-top: 10px;
+    width: 100px; }
+  /* line 10, static/dist/custom/scss/components/navbar.scss */
+  .NavBar .Company {
+    font-size: 30px;
+    padding-top: 20px; }
+  /* line 15, static/dist/custom/scss/components/navbar.scss */
+  .NavBar .Buttons {
+    padding-top: 15px; }
+    /* line 18, static/dist/custom/scss/components/navbar.scss */
+    .NavBar .Buttons p {
+      margin-left: 10px;
+      float: left;
+      font-size: 20px;
+      text-transform: uppercase; }
+
+/* line 3, static/dist/custom/scss/components/index.scss */
+#main {
+  background-color: black;
+  color: white; }
